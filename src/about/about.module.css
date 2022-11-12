@@ -1,0 +1,25 @@
+.theme{
+
+    background-color: #1ABC9C;
+text-align: center;
+margin-top: 5% !important;
+}
+.aboutpara{
+    padding: 6%;
+    color: aliceblue;
+font-size: 1.2rem !important;
+}
+.pads{
+margin-left: 15% !important;
+}
+@media screen and (min-width: 0) and (max-width: 600px){
+  
+    .aboutpara{
+        color: aliceblue;
+    font-size: 1rem !important;
+    }
+    .pads{
+    margin-left: 5% !important;
+    }
+
+}

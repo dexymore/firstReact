@@ -1,0 +1,50 @@
+input{
+    border: none transparent !important;
+    border-bottom:5px solid #1ABC9C !important;
+outline: none !important;
+background: transparent;
+margin:5% 0%!important;
+padding: 6% !important;
+}
+textarea {
+    border: none transparent !important;
+    border-bottom:5px solid #1ABC9C !important;
+outline: none !important;
+background: transparent;
+margin:5% 0%!important;
+padding: 6% !important;
+resize: none;
+}
+.margs{
+    margin-top: 5% !important;
+    margin-left: 35% !important;
+}
+
+@media screen and (min-width: 0) and (max-width: 600px){
+    input{
+        width: 50% !important;
+        border: none transparent !important;
+        border-bottom:5px solid #1ABC9C !important;
+    outline: none !important;
+    background: transparent;
+    margin:5% 10%!important;
+    padding: 6% !important;
+    }
+    textarea {
+        width: 50% !important;
+        border: none transparent !important;
+        border-bottom:5px solid #1ABC9C !important;
+    outline: none !important;
+    background: transparent;
+    margin:5% 10%!important;
+    padding: 6% !important;
+    resize: none;
+    }
+    .margs{
+        margin-left: 0% !important;
+
+        margin-top: 25% !important;
+        overflow-x: hidden !important;
+    }
+
+}

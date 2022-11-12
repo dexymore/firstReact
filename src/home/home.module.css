@@ -1,0 +1,133 @@
+.hero{
+background-color: #1ABC9C !important;
+width: 100%;
+
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+height: 100vh;
+}
+.lines{
+    position: relative;
+    /*  new lines  */
+    max-width: 200px;
+    margin: 10px ;
+    text-align: center;
+}
+.heroInfo{
+    width: 100%;
+padding-top: 13%;
+padding-left: 43%;
+}
+.heroInfo img{
+    width: 25%;
+}
+h1{
+    font-size: 2rem;
+    padding : 3% 0%;
+    color: white;
+}
+.heroInfo i{
+    color: white;
+padding-left:10% ;
+}
+.lines:before {
+    content: "";
+
+    width: 120px;
+    height: 5px;
+    background: #ffffff;
+    right: 62%;
+    top: 78%;
+    position: absolute;
+  }
+  .lines::after {
+    content: "";
+
+    width: 120px;
+    height: 5px;
+    background: #ffffff;
+    left: 70%;
+    top: 78%;
+    position: absolute;
+  }
+
+  .parahome{
+    padding : 2% 0%;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 36%;
+  }
+  @media screen and (min-width: 0) and (max-width: 600px){
+
+    .hero{
+        background-color: #1ABC9C !important;
+        width: 100%;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+        height: 100vh;
+        }
+        
+        .heroInfo{
+        padding-top: 40%;
+        padding-left: 35%;
+        }
+        .heroInfo img{
+            width: 50%;
+     
+        }
+        h1{
+            font-size: 1.5rem;
+     
+       
+            color: white;
+        }
+        .heroInfo i{
+            color: white;
+        padding-left:10% ;
+        }
+      
+        .lines:before {
+            content: "";
+        
+            width: 75px;
+            height: 5px;
+            background: #ffffff;
+            right: 60%;
+            top: 43.5%;
+            position: absolute;
+          }
+          .lines::after {
+            content: "";
+        
+            width: 75px;
+            height: 5px;
+            background: #ffffff;
+            left: 70%;
+            top: 43.5%;
+            position: absolute;
+          }
+        
+          .parahome{
+            padding : 2% 0%;
+            color: white;
+            font-size: 1rem;
+            padding-left: 23%;
+          }
+
+          .lines{
+            position: relative;
+            /*  new lines  */
+            max-width: 140px;
+            margin: 0px ;
+            text-align: center;
+        }
+
+  }
+  
