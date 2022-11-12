@@ -10,7 +10,7 @@ import Notfound from "./notfound/Notfound";
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import Layout from "./layout/Layout"
 let routes= createBrowserRouter([
-  {path: '/' ,element: <Layout></Layout> ,children:[
+  {path: '/' ,element: <Layout></Layout>,errorElement:<Notfound></Notfound> ,children:[
     {index:true,element:<Home></Home>},
 
 {path:'portofolio',element: <Portofolio></Portofolio>},
