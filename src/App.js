@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
+
 import "./App.css";
-import { useEffect } from "react";
+
 
 import Home from "./home/Home";
 import Portofolio from "./portfolio/Portofolio";
